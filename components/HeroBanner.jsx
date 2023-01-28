@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const HeroBanner = () => {
+const HeroBanner = ({HeroBanner}) => {
   return (
     <div className='hero-banner-container'>
     
