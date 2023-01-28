@@ -248,9 +248,11 @@ text-align: end;
 }
 .footer-banner-image{
   position: absolute;
+  width: 20rem;
+  height: 15rem;
   /* top: -35%;
   left: 8%; */
-  top: -25%;
+  /* top: -25%; */
   left: 25%;
 }
 .banner-desc .right{
