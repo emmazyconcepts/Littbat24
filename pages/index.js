@@ -1,19 +1,18 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import React from "react"
+import { Product, FooterBanner, HeroBanner} from "../components"
+
 
 
 export default function Home() {
   return (
    
    <>
-   Herobanner 
+   <HeroBanner/> 
 
 
-
-
-   <div className='products-heading'>
-   <h2>Best Selling Batterys</h2>
+   <div className='products-heading'>  <h2>Best Selling Batterys</h2>
    <p>Batterys of many variations</p>
    </div>
 
@@ -23,7 +22,7 @@ export default function Home() {
    )}
    </div>
 
-   Footer
+   <FooterBanner/>
   
 
    </>
