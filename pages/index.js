@@ -22,6 +22,8 @@ export default function Home() {
     (product) => product
    )}
    </div>
+
+   Footer
   
 
    </>
