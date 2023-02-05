@@ -39,7 +39,7 @@ import { Product } from '../../components';
           <h3>Quantity:</h3>
           <p className="quantity-desc">
             <span className="minus" onClick=""><AiOutlineMinus /></span>
-            <span className="num">1</span>
+            <span className="num">60</span>
             <span className="plus" onClick=""><AiOutlinePlus /></span>
           </p>
         </div>
