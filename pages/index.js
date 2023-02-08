@@ -13,7 +13,7 @@ export default function Home({ products, bannerData}) {
   return (
    
    <>
-   <HeroBanner HeroBanner={bannerData.length & bannerData[0]}/> 
+   <HeroBanner HeroBanner={bannerData.length && bannerData[0]}/> 
 
 
    <div className='products-heading'>  <h2>Best Selling Batterys</h2>
@@ -32,7 +32,8 @@ export default function Home({ products, bannerData}) {
    </>
    )
     
-  
+         
+    
 }
 
 export const getServerSideProps = async () => {
