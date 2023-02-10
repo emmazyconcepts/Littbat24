@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import React from "react";
 import { Product, FooterBanner, HeroBanner } from "../components";
 import { client } from "@/lib/client";
 

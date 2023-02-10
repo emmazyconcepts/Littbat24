@@ -67,7 +67,7 @@ const Navbar = () => {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href="/policy"
+                    href={"/battery/24volt"}
                     className={classNames(
                       active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                       "block px-4 py-2 text-sm"
@@ -80,7 +80,7 @@ const Navbar = () => {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href="#"
+                    href={"/battery/48volt"}
                     className={classNames(
                       active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                       "block px-4 py-2 text-sm"
@@ -93,7 +93,7 @@ const Navbar = () => {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href="#"
+                    href={"/battery/512volt"}
                     className={classNames(
                       active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                       "block px-4 py-2 text-sm"
