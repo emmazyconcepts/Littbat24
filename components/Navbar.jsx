@@ -18,7 +18,10 @@ const Navbar = () => {
       <select className="logo" name="" id="">
         {" "}
         <option>Shop by department</option>
-        <option>12v batteries</option>
+        <option>
+          {" "}
+          <a href="/policy">12v batteries</a>
+        </option>
         <option>24v batteries</option>
         <option>48v batteries</option>
         <option>512v batteries</option>
