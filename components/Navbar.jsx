@@ -15,21 +15,21 @@ const Navbar = () => {
 
       <div></div>
 
-      <select name="" id="">
+      <select className="logo" name="" id="">
         {" "}
-        <option>Categorys</option>
-        <option>64VOLT</option>
-        <option>64VOLT</option>
-        <option>64VOLT</option>
-        <option>64VOLT</option>
-        <option>64VOLT</option>
-        <option>64VOLT</option>
-        <option>64VOLT</option>
+        <option>Shop by department</option>
+        <option>12v batteries</option>
+        <option>24v batteries</option>
+        <option>48v batteries</option>
+        <option>512v batteries</option>
+        <option>380v batteries</option>
+        <option>409v batteries</option>
+        <option>6v batteries</option>
       </select>
 
-      <h1>Todays deal</h1>
-      <h1>New Products</h1>
-      <h1>Offers</h1>
+      <h1 className="logo">Todays deal</h1>
+      <h1 className="logo">New Products</h1>
+      <h1 className="logo">Offers</h1>
 
       <button
         type="button"
