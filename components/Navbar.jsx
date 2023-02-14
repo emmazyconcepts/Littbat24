@@ -13,6 +13,24 @@ const Navbar = () => {
         <Link href="/">LittBat24</Link>
       </p>
 
+      <div></div>
+
+      <select name="" id="">
+        {" "}
+        <option>Categorys</option>
+        <option>64VOLT</option>
+        <option>64VOLT</option>
+        <option>64VOLT</option>
+        <option>64VOLT</option>
+        <option>64VOLT</option>
+        <option>64VOLT</option>
+        <option>64VOLT</option>
+      </select>
+
+      <h1>Todays deal</h1>
+      <h1>New Products</h1>
+      <h1>Offers</h1>
+
       <button
         type="button"
         className="cart-icon"

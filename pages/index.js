@@ -11,8 +11,8 @@ export default function Home({ products, bannerData }) {
 
       <div className="products-heading">
         {" "}
-        <h2>Best Selling Batterys</h2>
-        <p>Batterys of many variations</p>
+        <h2>Best Selling Battery</h2>
+        <p>Battery of many variations</p>
       </div>
 
       <div className="products-container">
