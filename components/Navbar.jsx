@@ -7,6 +7,9 @@ import { useStateContext } from "../context/StateContext";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
+import Image from "next/image";
+
+import logo from "../public/1678107511_litbatt24_logo_8.jpeg";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -18,7 +21,9 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">LittBat24</Link>
+        <Link href="/">
+          <Image src={logo} alt="battery" className=" w-[8.5rem]" />
+        </Link>
       </p>
 
       <div></div>
