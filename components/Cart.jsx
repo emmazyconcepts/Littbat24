@@ -88,7 +88,7 @@ const Cart = () => {
                   </div>
                   <div className="flex bottom">
                     <div>
-                      <p className="quantity-desc">
+                      <p className="quantity-desc flex ">
                         <span
                           className="minus"
                           onClick={() =>
