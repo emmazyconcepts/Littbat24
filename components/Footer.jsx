@@ -184,7 +184,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="/battery/24volt"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     24v batteries{" "}
                   </a>
@@ -192,7 +192,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="/battery/48volt"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     48v batteries{" "}
                   </a>
@@ -200,7 +200,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="/battery/512volt"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     512v batteries{" "}
                   </a>
@@ -208,7 +208,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="/battery/380volt"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     380v batteries{" "}
                   </a>
@@ -221,7 +221,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href={"/battery/todaydeal"}
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     Todays deal
                   </a>
@@ -229,7 +229,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href={"/battery/newproduct"}
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     New Products
                   </a>
@@ -237,7 +237,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href={"/battery/offers"}
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     Offers{" "}
                   </a>
@@ -251,7 +251,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="/policy"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     Locations
                   </a>
@@ -259,7 +259,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="/policy"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     Privacy
                   </a>
@@ -267,7 +267,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="/policy"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     Terms
                   </a>
@@ -280,7 +280,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="#"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     Support
                   </a>
@@ -288,7 +288,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="#"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     Help Center
                   </a>
@@ -296,7 +296,7 @@ const Footer = () => {
                 <li class="mb-2">
                   <a
                     href="#"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+                    class="border-b border-solid border-transparent hover:border-[#f50d01] hover:text-[#f50d01]"
                   >
                     Contact Us
                   </a>
@@ -350,7 +350,7 @@ const Footer = () => {
               </p>
             </div>
             <div class="px-4 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
-              <button class="px-4 py-2 bg-purple-800 hover:bg-purple-900 rounded text-white">
+              <button class="px-4 py-2 bg-[#f50d01] hover:bg-purple-900 rounded text-white">
                 Shop Now
               </button>
             </div>
