@@ -69,7 +69,7 @@ const Footer = () => {
           <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
             <div class="bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
               <figure class="mb-2">
-                <img src="download.png" alt="" class="h-64 ml-auto mr-auto" />
+                <img src="/download.png" alt="" class="h-64 ml-auto mr-auto" />
               </figure>
               <div class="rounded-lg p-4 bg-[#f50d01] flex flex-col">
                 <div>
