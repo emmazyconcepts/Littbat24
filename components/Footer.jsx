@@ -4,10 +4,10 @@ import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className=" mt-8">
-      <div class="flex items-center bg-indigo-100 w-screen min-h-screen">
+      <div class="flex items-center bg-[#808080] w-screen min-h-screen">
         <div class="container ml-auto mr-auto flex flex-wrap items-start">
           <div class="w-full pl-5 lg:pl-2 mb-4 mt-4">
-            <h1 class="text-3xl lg:text-4xl text-gray-700 font-extrabold">
+            <h1 class="text-3xl lg:text-4xl text-white font-extrabold">
               We Offer
             </h1>
           </div>
@@ -16,12 +16,12 @@ const Footer = () => {
               <figure class="mb-2">
                 <img src="/bike.png" alt="" class="h-64 ml-auto mr-auto" />
               </figure>
-              <div class="rounded-lg p-4 bg-purple-700 flex flex-col">
+              <div class="rounded-lg p-4 bg-[#f50d01] flex flex-col">
                 <div>
                   <h5 class="text-white text-2xl font-bold leading-none">
                     Fast Delivery
                   </h5>
-                  <span class="text-xs text-gray-400 leading-none">
+                  <span class="text-xs text-white leading-none">
                     LitBatt24 provides Fast Delivery service. if you want your
                     product faster, you can opt for next day delivery..
                   </span>
@@ -34,12 +34,12 @@ const Footer = () => {
               <figure class="mb-2">
                 <img src="/cash.png" alt="" class="h-64 ml-auto mr-auto" />
               </figure>
-              <div class="rounded-lg p-4 bg-purple-600 flex flex-col">
+              <div class="rounded-lg p-4 bg-[#f50d01] flex flex-col">
                 <div>
                   <h5 class="text-white text-2xl font-bold leading-none">
                     Cash On Delivery
                   </h5>
-                  <span class="text-xs text-gray-400 leading-none">
+                  <span class="text-xs text-white leading-none">
                     Cash on Delivery is available as a payment method for all
                     items that are Fulfilled by LitBatt24{" "}
                   </span>
@@ -52,12 +52,12 @@ const Footer = () => {
               <figure class="mb-2">
                 <img src="/return.png" alt="" class="h-64 ml-auto mr-auto" />
               </figure>
-              <div class="rounded-lg p-4 bg-gray-700 flex flex-col">
+              <div class="rounded-lg p-4 bg-[#f50d01] flex flex-col">
                 <div>
                   <h5 class="text-white text-2xl font-bold leading-none">
                     Easy Returns
                   </h5>
-                  <span class="text-xs text-gray-400 leading-none">
+                  <span class="text-xs text-white leading-none">
                     You may request returns for most items you buy from
                     LitBatt24, except those that are explicitly identified as
                     not returnable.{" "}
@@ -71,39 +71,16 @@ const Footer = () => {
               <figure class="mb-2">
                 <img src="download.png" alt="" class="h-64 ml-auto mr-auto" />
               </figure>
-              <div class="rounded-lg p-4 bg-gray-700 flex flex-col">
+              <div class="rounded-lg p-4 bg-[#f50d01] flex flex-col">
                 <div>
                   <h5 class="text-white text-2xl font-bold leading-none">
                     Best Service
                   </h5>
-                  <span class="text-xs text-gray-400 leading-none">
+                  <span class="text-xs text-white leading-none">
                     We at Littbat24 we offer the best service and we also prides
                     ourself for offering a comprehensive selection of quality
                     LiFePO4 batteries to our customers.
                   </span>
-                </div>
-                <div class="flex items-center">
-                  <div class="text-lg text-white font-light">$599,00</div>
-                  <button
-                    href="javascript:;"
-                    class="rounded-full bg-gray-900 text-white hover:bg-white hover:text-purple-900 hover:shadow-xl focus:outline-none w-10 h-10 flex ml-auto transition duration-300"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="stroke-current m-auto"
-                    >
-                      <line x1="12" y1="5" x2="12" y2="19"></line>
-                      <line x1="5" y1="12" x2="19" y2="12"></line>
-                    </svg>
-                  </button>
                 </div>
               </div>
             </div>
