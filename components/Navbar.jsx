@@ -43,9 +43,17 @@ const Navbar = () => {
         <option>6v batteries</option>
       </select> */}
 
-      <h1 className="logo">Todays deal</h1>
-      <h1 className="logo">New Products</h1>
-      <h1 className="logo">Offers</h1>
+      <a href={"/battery/todaydeal"} className="logo">
+        Todays deal
+      </a>
+
+      <a href={"/battery/newproduct"} className="logo">
+        New Products
+      </a>
+
+      <a href={"/battery/offers"} className="logo">
+        Offers{" "}
+      </a>
 
       <Menu as="div" className="relative inline-block text-left">
         <div>
