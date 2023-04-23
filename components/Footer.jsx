@@ -100,7 +100,7 @@ const Footer = () => {
               <ul class="list-none footer-links">
                 <li class="mb-2">
                   <a
-                    href="#"
+                    href="/battery/24volt"
                     class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
                   >
                     24v batteries{" "}
@@ -108,7 +108,7 @@ const Footer = () => {
                 </li>
                 <li class="mb-2">
                   <a
-                    href="#"
+                    href="/battery/48volt"
                     class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
                   >
                     48v batteries{" "}
@@ -116,7 +116,7 @@ const Footer = () => {
                 </li>
                 <li class="mb-2">
                   <a
-                    href="#"
+                    href="/battery/512volt"
                     class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
                   >
                     512v batteries{" "}
@@ -124,7 +124,7 @@ const Footer = () => {
                 </li>
                 <li class="mb-2">
                   <a
-                    href="#"
+                    href="/battery/380volt"
                     class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
                   >
                     380v batteries{" "}
@@ -164,17 +164,10 @@ const Footer = () => {
             <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
               <h5 class="text-xl font-bold mb-6">About</h5>
               <ul class="list-none footer-links">
+                <li class="mb-2"></li>
                 <li class="mb-2">
                   <a
-                    href="#"
-                    class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
-                  >
-                    Team
-                  </a>
-                </li>
-                <li class="mb-2">
-                  <a
-                    href="#"
+                    href="/policy"
                     class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
                   >
                     Locations
@@ -182,7 +175,7 @@ const Footer = () => {
                 </li>
                 <li class="mb-2">
                   <a
-                    href="#"
+                    href="/policy"
                     class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
                   >
                     Privacy
@@ -190,7 +183,7 @@ const Footer = () => {
                 </li>
                 <li class="mb-2">
                   <a
-                    href="#"
+                    href="/policy"
                     class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
                   >
                     Terms
