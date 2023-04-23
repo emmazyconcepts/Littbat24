@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { client } from "@/lib/client";
 import { Product, FooterBanner, HeroBanner } from "../../components";
+import { useRouter } from "next/router";
 
 export default function id({ products, bannerData }) {
+  const router = useRouter();
+  const { id } = router.query;
+
   return (
     <div>
       {" "}
       <div className="products-heading">
         {" "}
         <h2>Best Selling Battery</h2>
-        <p>12 Volts</p>
+        <p>{id}</p>
       </div>
       <div className="products-container">
         {products?.map((product) => (
